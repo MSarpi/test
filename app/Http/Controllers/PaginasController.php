@@ -12,4 +12,8 @@ class PaginasController extends Controller
     public function test2(){
         return view('test2');
     }
+
+    public function test3(){
+        return ('test3');
+    }
 }
