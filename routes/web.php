@@ -18,3 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('test', 'App\Http\Controllers\PaginasController@test');
+
+Route::get('test2', 'App\Http\Controllers\PaginasController@test2');
+
+
+

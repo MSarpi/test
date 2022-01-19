@@ -8,4 +8,8 @@ class PaginasController extends Controller
     public function test(){
         return view('app');
     }
+
+    public function test2(){
+        return view('test2');
+    }
 }
